@@ -46,3 +46,9 @@ function handleClick() {
   // just be the original tableData.
   buildTable(filteredData);
 };
+
+// tell D3 to execute our handleClick() function when the button with an id of filter-btn is clicked
+d3.selectAll("#filter-btn").on("click", handleClick);
+
+// call our buildTable function once more—this time using the original data we've imported
+buildTable(tableData);
