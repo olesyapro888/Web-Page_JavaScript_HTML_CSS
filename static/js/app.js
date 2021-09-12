@@ -37,32 +37,30 @@ function updateFilters() {
     // 5. If a filter value was entered then add that filterId and value
     // to the filters list. Otherwise, clear that filter from the filters object.
   if (eltValue) {
-    filters(idFiltered) = eltValue;
+    filters[idFiltered] = eltValue;
   }
   else {
-    delete filters(idFiltered);
+    delete filters[idFiltered];
   }
     // 6. Call function to apply all filters and rebuild the table
-    filterTable(filters);
-  
+    filterTable();
   }
   
   // 7. Use this function to filter the table when data is entered.
   function filterTable() {
   
-    // 8. Set the filtered data to the tableData.
-    
+    // 8. Set the filtered data to the tableData.  
     let filteredData = tableData;
   
     // 9. Loop through all of the filters and keep any data that
-    // matches the filter values
+    // matches the filter values in the variable created in Step 8
     
     Object.entries(filters).forEach(([key, value]) => {
       filteredData = filteredData.filter(row => row[key] === value)
     });
   
-    // 10. Finally, rebuild the table using the filtered data  
-    buildTable();
+    // 10. Finally, rebuild the table using the filtered data by passing the variable created in Step 8
+    buildTable(filteredData);
   }
   
   // 2. Attach an event to listen for changes to each filter
