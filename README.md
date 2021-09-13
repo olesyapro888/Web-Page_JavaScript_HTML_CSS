@@ -1,9 +1,9 @@
 # UFOs. Project 11 of the UofT.
 ## `-Contents-`	
 	
-- [Overview of the Project](#overview-of-the-UFOs-analysis)	
+- [Overview of the UFOs Project](#overview-of-the-UFOs-analysis)	
 - [Resources](#resources)	
-- [Analysis Result](#the-UFOs-analysis-result)	
+- [The UFOs Analysis Result](#the-UFOs-analysis-result)	
   - [Web page with multiple filters at the same time](#Web-page-with-multiple-filters-at-the-same-time)	
   - [Five filters of searching criteria](#Five-filters-of-searching-criteria)
 - [The UFOs analysis summary](#the-UFOs-analysis-summary)	
@@ -15,7 +15,7 @@ The purpose for the UFOs analysis are:
 2.  Create table of filters for the datetime, city, state, country, and shape by using JavaScript and HTML.
 ## `Resources`	
 The analysis is created using next resources:	
-  - Data Source: [Data](./js/data.js)	
+  - Data Source: [Data](.//js/data.js)	
   - Software: Visual Studio Code 1.58.0.	
 ## `The UFOs analysis result`	
 	
