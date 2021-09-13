@@ -1,5 +1,4 @@
-# UFOs
-Module 11 of the UoT
+# UFOs. Project 11 of the UofT.
 ## `-Contents-`	
 	
 - [Overview of the Project](#overview-of-the-UFOs-analysis)	
@@ -24,38 +23,39 @@ Full results can be found in the [UFOs_WebPage] https://itekkie.github.io/UFOs/.
 
 Additional, JavaScript code is in the [js-app](./js/app.js) and HTML result is in the [html](./index.html) file.
 
-  ### ` - Web page with multiple filters at the same time`	
+### ` - Web page with multiple filters at the same time`	
 
 [UFOs_WebPage] https://itekkie.github.io/UFOs/ allows users filter for multiple criteria at the same time.
 
 For instance, at the same time the 3 filtered search by Data, State and Country is here:
 
-screen main
-  ### ` - Five filters of searching criteria`	
+![image](https://user-images.githubusercontent.com/68247343/133020929-e9d16205-784a-4eaf-8ae8-f46ac4e7ab63.png)
+
+### ` - Five filters of searching criteria`	
 
 The UFOs web page allows to search through sightings by using the following search criteria. 
 
 1. Dates format should be like in the following screen: 
 
-screen data filter:
+![image](https://user-images.githubusercontent.com/68247343/133020974-cfec3ef2-e0b8-4dfc-a9f6-68d656b48085.png)
 
 2. Cities are with lowercase format.
 
-screen city data
+![image](https://user-images.githubusercontent.com/68247343/133020993-22b184b3-3027-4176-ba6b-68818f317ae4.png)
 
 3. States and Countries should be only with two letters.
 
-screen
+![image](https://user-images.githubusercontent.com/68247343/133021008-f06c7271-b00a-4ea6-bf84-7919d6643be6.png)
 
 4. last shape filter is with lowercase format.
 
-screen
+![image](https://user-images.githubusercontent.com/68247343/133021017-0a8ea621-7176-4623-a727-00df1642ed73.png)
 
 ## `The UFOs analysis summary`	
 
 The main design drawback of the web page is there is no a button to clean chosen data and apply new user filter. 
 
-Also, it would be grate to develope several further things.
+Also, it would be great to develope several further things.
 Firstly, the filters don't not show any wrong user inputs. So, it should be improved. 
 
 Secondly, to visualize data of UFOs, it's necessary to add map of sightings with different pop up details as when sightings were and how.
