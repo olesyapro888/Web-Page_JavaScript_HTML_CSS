@@ -13,20 +13,20 @@ Module 11 of the UoT
 	
 The purpose for the UFOs analysis are: 	
 1.  Build web page to allow users filter for multiple criteria at the same time; 
-2.  Create table of filters for the datatime, city, state, country, and shape by using JavaScript and HTML.
+2.  Create table of filters for the datetime, city, state, country, and shape by using JavaScript and HTML.
 ## `Resources`	
 The analysis is created using next resources:	
   - Data Source: [Data](./js/data.js)	
   - Software: Visual Studio Code 1.58.0.	
 ## `The UFOs analysis result`	
 	
-Full results can be found in the [UFOs-GitHubPage] https://itekkie.github.io/UFOs/.
+Full results can be found in the [UFOs_WebPage] https://itekkie.github.io/UFOs/.
 
 Additional, JavaScript code is in the [js-app](./js/app.js) and HTML result is in the [html](./index.html) file.
 
   ### ` - Web page with multiple filters at the same time`	
 
-[UFOs-GitHubPage] https://itekkie.github.io/UFOs/ allows users filter for multiple criteria at the same time.
+[UFOs_WebPage] https://itekkie.github.io/UFOs/ allows users filter for multiple criteria at the same time.
 
 For instance, at the same time the 3 filtered search by Data, State and Country is here:
 
@@ -47,13 +47,17 @@ screen city data
 
 screen
 
-4. last shape filter is with lowercase format
+4. last shape filter is with lowercase format.
 
 screen
 
 ## `The UFOs analysis summary`	
 
-The main design drawback of the web page is there is no button to apply user filter. 
+The main design drawback of the web page is there is no a button to clean chosen data and apply new user filter. 
 
+Also, it would be grate to develope several further things.
+Firstly, the filters don't not show any wrong user inputs. So, it should be improved. 
 
- two recommendations for further development
+Secondly, to visualize data of UFOs, it's necessary to add map of sightings with different pop up details as when sightings were and how.
+
+Finally, that is necessary to add summary some table with total shape, colors, states and countries where UFOs were appeared.
