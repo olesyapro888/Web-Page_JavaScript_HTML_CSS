@@ -20,8 +20,6 @@ The analysis is created using next resources:
 	
 Full results can be found in the [UFOs_WebPage] https://itekkie.github.io/UFOs/.
 
-Additional, JavaScript code is in the [js folder](./js) and HTML result is in the [html](./index.html) file.
-
 ### ` - Web page with multiple filters at the same time`	
 
 [UFOs_WebPage] https://itekkie.github.io/UFOs/ allows users filter for multiple criteria at the same time.
