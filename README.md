@@ -11,13 +11,13 @@
 	
 ## `Overview of the UFOs analysis`	
 	
-The purpose for the UFOs analysis are: 	
-1.  Build web page to allow users filter for multiple criteria at the same time; 
+The purpose of the UFOs analysis are: 	
+1.  Build web page to allow users to filter for multiple criteria at the same time; 
 2.  Create table of filters for the datetime, city, state, country, and shape by using JavaScript and HTML.
 
 ## `Resources`	
 The analysis is created using next resources:		
-  - Software: Visual Studio Code 1.58.0.	
+  - Software: HTML5, CSS3, Java script, Visual Studio Code 1.58.0.	
 ## `The UFOs analysis result`	
 	
 Full results can be found in the [UFOs_WebPage] https://itekkie.github.io/UFOs/.
