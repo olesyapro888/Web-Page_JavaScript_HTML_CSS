@@ -1,4 +1,5 @@
-# UFOs. Project 11 of the UofT.
+# UFOs. The project 11 of the University of Toronto.
+
 ## `-Contents-`	
 	
 - [Overview of the UFOs Project](#overview-of-the-UFOs-analysis)	
@@ -13,6 +14,7 @@
 The purpose for the UFOs analysis are: 	
 1.  Build web page to allow users filter for multiple criteria at the same time; 
 2.  Create table of filters for the datetime, city, state, country, and shape by using JavaScript and HTML.
+
 ## `Resources`	
 The analysis is created using next resources:		
   - Software: Visual Studio Code 1.58.0.	
