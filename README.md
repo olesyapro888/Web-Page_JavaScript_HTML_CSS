@@ -1,4 +1,4 @@
-# UFOs. The project 11 of the University of Toronto.
+# Custom dashboard of UFOs data on web page using JavaScript, HTML, Bootstrap.
 
 ## `-Contents-`	
 	
